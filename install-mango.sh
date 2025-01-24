@@ -153,8 +153,8 @@ if [ "$(find "$MA_HOME" -mindepth 1 -maxdepth 1)" ]; then
 fi
 
 if [ ! -f "$MA_CORE_ZIP" ] && [ -z "$MA_VERSION" ]; then
-  # MA_VERSION="$(prompt 'What version of Mango do you want to install?' '5.3.0')"
-  MA_VERSION="5.3.0"
+  # MA_VERSION="$(prompt 'What version of Mango do you want to install?' '5.3.1')"
+  MA_VERSION="5.3.1"
 fi
 
 if [ ! -f "$MA_CORE_ZIP" ] && [ -z "$MA_BUNDLE_TYPE" ]; then
