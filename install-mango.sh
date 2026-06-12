@@ -154,7 +154,7 @@ fi
 
 if [ ! -f "$MA_CORE_ZIP" ] && [ -z "$MA_VERSION" ]; then
   # MA_VERSION="$(prompt 'What version of Mango do you want to install?' '5.5.7')"
-  MA_VERSION="5.5.7"
+  MA_VERSION="5.6.0"
 fi
 
 if [ ! -f "$MA_CORE_ZIP" ] && [ -z "$MA_BUNDLE_TYPE" ]; then
